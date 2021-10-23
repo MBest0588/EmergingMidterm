@@ -66,3 +66,14 @@ a{
     border: 12px solid #3D2C8D;
     padding: 20px;
   }
+
+@media screen and (max-width:1480px){
+
+    #site-wrap{
+        grid-template-areas:
+                            "title title title title title title"
+                            ". nav nav nav nav ."
+                            ". dashboard dashboard dashboard dashboard ."
+                            ". daily daily daily daily .";
+    }
+}
